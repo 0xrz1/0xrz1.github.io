@@ -11,3 +11,8 @@ serve:
 		-v $$(pwd)/.bundle/root:/root/.bundle \
 		-v $$(pwd)/.bundle/local:/usr/local/bundle \
 		bretfisher/jekyll-serve
+
+release:
+	@git add .
+	@git commit -am "New release!" || true
+	@git push
