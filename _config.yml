@@ -2,7 +2,7 @@ url: ""
 baseurl: ""
 repository: "https://github.com/francescobianco/jekyll-html-pages"
 title: "🌐 Jekyll HTML Pages"
-author: "F.Bianco"
+author: "B.Laude"
 
 plugins: [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
 
